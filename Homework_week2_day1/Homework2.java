@@ -2,17 +2,14 @@ package Homework_week2_day1;
 
 public class Homework2 {
     static void main() {
-        int[] array1 = {8, 3, 1, 7, 0, 10, 2};
-        int[] array2 = {8, 3, 1, 7, 0, 10, 2};
-        quickSortWithHoarePartition(0, 6, array1[0], array1);
-        quickSortWithLomutoPartition(array2, 0, 6);
+        /*TODO*/
     }
 
-    protected static void quickSortWithHoarePartition(int low, int high,int pivot, int[] arr){
-        if (low < high) {
-            int partition = hoarePartition(low, high, pivot, arr);
-            quickSortWithHoarePartition(low, partition, arr[0], arr);
-            quickSortWithHoarePartition(partition + 1, high, arr[partition + 1], arr);
+    protected static void quickSortWithHoarePartition(int low, int high, int[] arr){
+        if (low < high && high > 0) {
+            int partition = hoarePartition(low, high, arr[low], arr);
+            quickSortWithHoarePartition(low, partition, arr);
+            quickSortWithHoarePartition(partition + 1, high, arr);
         }
     }
 
