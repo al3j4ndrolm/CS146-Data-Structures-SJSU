@@ -11,8 +11,8 @@ import java.util.List;
 
  I simply used two pointers, one for each array and add them to a result array as it goes.
 
- Space complexity: O(n^2)
- Time complexity: O(n)
+ Space complexity: O(n)
+ Time complexity: O(n^2)
 */
 
 public class HomeWork1 {
