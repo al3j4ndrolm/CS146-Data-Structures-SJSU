@@ -4,5 +4,4 @@ public class HomeworkWeek3 {
     static void main() {
         /*TODO*/
     }
-
 }
