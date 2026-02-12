@@ -1,11 +1,13 @@
 package Homework_week3;
 
-public class TestCase {
-    int[] numbersToSort;
-    int[] expected;
+import java.util.ArrayList;
 
-    TestCase(int[] numbersToSort, int[] expected) {
-        this.numbersToSort = numbersToSort;
+public class TestCase {
+    ArrayList<WordFrequency> frequentWords;
+    ArrayList<WordFrequency> expected;
+
+    TestCase(ArrayList<WordFrequency> frequentWords, ArrayList<WordFrequency> expected) {
+        this.frequentWords = frequentWords;
         this.expected = expected;
     }
 }
