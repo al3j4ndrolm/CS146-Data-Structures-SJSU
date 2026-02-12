@@ -7,13 +7,12 @@ import java.util.List;
  Alejandro Lopez - CS146 - SJSU
 
  So my approach is similar to what was discussed at class, and I got to understand better
- how to handle the remaining array in the case when one of then is shorter than the other.
+ how to handle the remaining array in the case when one of them is shorter than the other.
 
  I simply used two pointers, one for each array and add them to a result array as it goes.
 
  Space complexity: O(n)
- Time complexity: O(n)
-
+ Time complexity: O(n^2)
 */
 
 public class HomeworkWeek1 {
