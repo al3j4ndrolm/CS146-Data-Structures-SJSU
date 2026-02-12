@@ -16,7 +16,7 @@ import java.util.List;
 
 */
 
-public class HomeWork1 {
+public class HomeworkWeek1 {
     static void main() {
         System.out.print(mergeSort(
                 List.of(1,2,4,5),

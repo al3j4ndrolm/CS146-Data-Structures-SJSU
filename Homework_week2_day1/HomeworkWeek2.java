@@ -1,12 +1,12 @@
 package Homework_week2_day1;
 
-public class Homework2 {
+public class HomeworkWeek2 {
     static void main() {
         /*TODO*/
     }
 
     protected static void quickSortWithHoarePartition(int low, int high, int[] arr){
-        if (low < high && high > 0) {
+        if (low < high) {
             int partition = hoarePartition(low, high, arr[low], arr);
             quickSortWithHoarePartition(low, partition, arr);
             quickSortWithHoarePartition(partition + 1, high, arr);
