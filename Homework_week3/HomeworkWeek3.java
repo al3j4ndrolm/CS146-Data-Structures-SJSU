@@ -26,4 +26,11 @@ public class HomeworkWeek3 {
             maxHeapify(arr, n, largest);
         }
     }
+
+    void buildMaxHeap(int[] arr) {
+        int n = arr.length;
+        for (int i = n / 2 - 1; i >= 0; i--) {
+            maxHeapify(arr, n, i);
+        }
+    }
 }
