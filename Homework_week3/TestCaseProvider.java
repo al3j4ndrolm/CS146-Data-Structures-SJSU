@@ -6,7 +6,7 @@ import java.util.List;
 public class TestCaseProvider {
 
     TestCase BUILD_MAX_HEAP_TEST_CASE = new TestCase(
-            new ArrayList<WordFrequency>(List.of(
+            new ArrayList<>(List.of(
                     new WordFrequency("happy", 400),
                     new WordFrequency("satisfied", 100),
                     new WordFrequency("neutral", 300),
@@ -18,7 +18,7 @@ public class TestCaseProvider {
                     new WordFrequency("would recommend to friends", 800),
                     new WordFrequency("visit the store", 700)
             )),
-            new ArrayList<WordFrequency>(List.of(
+            new ArrayList<>(List.of(
                 new WordFrequency("inconvenient", 900),
                 new WordFrequency("would recommend to friends", 800),
                 new WordFrequency("visit the store", 700),
